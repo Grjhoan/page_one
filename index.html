@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mi Empresa</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="public/style.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+		<header>
+			<!--NAVBAR-->
+			<div class="navbar navbar-fixed-top opaque-navbar">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+			  <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
+			    
+			  </button>
+			      <a class="navbar-brand" style="color:white;" href="#">Mi empresa</a>
+			    </div>	
+			    <div class="collapse navbar-collapse" id="navMain">
+			      <ul class="nav navbar-nav pull-right">
+			        <li><a href="#nosotros"><span id="links-navbar">Nosotros</span></a></li>
+			        <li><a href="#servicios"><span id="links-navbar">Servicios</span></a></li> 
+			        <li><a href="#contacto"><span id="links-navbar">Contactanos</span></a></li> 
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+			<!--END NAVBAR-->
+		</header>
+		
+		<section class="jumbotron">
+				<div class="container contaner-text">	
+					<h1>¡Bienvenidos!</h1>
+					<p>Nunc sit amet dictum tellus, et hendrerit risus. Suspendisse dignissim interdum sapien, 
+					<br/>
+					in bibendum augue. Donec varius fermentum sapien. 
+					<br/>
+					Vestibulum at lectus nisi. Vivamus fringilla est in hendrerit lobortis. 
+					<br/>
+					Nulla quam ante, sollicitudin vitae mattis at, imperdiet et ex. 
+					</p>
+					<p>
+						<a class="btn btn-lg btn-jumbotron">Conocer más...</a>
+					</p>
+				</div>
+		</section>
+
+		<section class="content-central">
+			
+		<article id="nosotros">
+			<div class="container">
+				<h2 id="title-article">Nosotros</h2>
+				<br/>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur, nunc vel dapibus viverra, lacus erat efficitur eros, et lacinia arcu quam venenatis ligula. Curabitur ullamcorper sem massa. Etiam eu ultrices nisi. Etiam volutpat sapien ac dui sodales, tempus condimentum libero auctor. Aliquam blandit dolor sem, vitae viverra elit pulvinar a. Nam vitae feugiat elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			</div>
+		</article>
+	
+		<article id="servicios">
+			<div class="container">
+			<h2 id="title-article-servicios">Servicios</h2>
+			<br/>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						
+						<div class="caption">
+						<center><img src="public/images/icons/telemarketer.png" title="telemarketer" alt="telemarketer"></center>	
+							<h3 class="title-thumbnails">Servicio Uno</h4>
+							<p>Morbi et dui placerat, dapibus purus at, dictum justo, Integer ultricies risus non tortor semper pretium.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<img data-src="#" alt="">
+						<div class="caption">
+						<center><img src="public/images/icons/wifi.png" title="telemarketer" alt="telemarketer"></center>
+							<h3 class="title-thumbnails">Servicio Dos</h4>
+							
+							<p>Morbi et dui placerat, dapibus purus at, dictum justo, Integer ultricies risus non tortor semper pretium.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<img data-src="#" alt="">
+						<div class="caption">
+						<center><img src="public/images/icons/telefono-inteligente.png" title="telemarketer" alt="telemarketer"></center>
+							<h3 class="title-thumbnails">Servicio Tres</h4>
+							
+							<p>Morbi et dui placerat, dapibus purus at, dictum justo, Integer ultricies risus non tortor semper pretium.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article id="contacto">
+			<div class="container">
+				<h2 id="title-article">Contactanos</h2>	
+				<br/>
+				<div class="row contact">
+					<div class="col-md-6 column-contact-izq">
+						<img src="public/images/icons/cellphone.png" title="cellphone" alt="cellphone" class="img-contact">
+						<p>0011 0900-0000 / 0011 0800-0000</p>
+					</div>
+					<div class="col-md-6 column-contact-der">
+						<img src="public/images/icons/email.png" title="email" alt="email" class="img-contact">
+						<p>miempresaemail@dominio.com</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<footer id="footer">
+			<p>&copy; 2017 www.miempresa.com Todos los derechos reservados.</p>
+			<br/>
+		</footer>
+		
+
+		</section>
+		<!-- jQuery -->
+		<script src="vendor/twbs/bootstrap/js/tests/vendor/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="public/design_navbar.js"></script>
+	</body>
+</html>
